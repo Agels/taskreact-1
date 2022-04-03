@@ -1,0 +1,7 @@
+.language input[type=radio]{
+ display: none;
+}
+
+.language input[type=radio]:checked + label > img {
+border: 1px solid red;
+}
